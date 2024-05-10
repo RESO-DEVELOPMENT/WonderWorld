@@ -1,0 +1,106 @@
+.activities-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 50px;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 23px;
+  @media screen and (max-width: 1400px) and (min-width: 992px),
+    screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 1400px) and (min-width: 992px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 992px) and (min-width: 576px) {
+    flex-wrap: nowrap;
+  }
+
+  &-image {
+    background-image: url(/active/activities1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 215px;
+    width: 286px;
+    border-radius: 40px;
+    @media screen and (max-width: 1400px) and (min-width: 1200px) {
+      width: 450px;
+      height: 338.2px;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 992px) {
+      border-radius: 20px;
+      width: 370px;
+      height: 290px;
+    }
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+      border-radius: 20px;
+      width: 340px;
+      height: 266.5px;
+    }
+    @media screen and (max-width: 768px) and (min-width: 576px) {
+      border-radius: 10px;
+      width: 250px;
+      height: 195.5px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+  }
+  &-information {
+    color: #fff;
+    padding-top: 10px;
+    width: 249px;
+    @media screen and (max-width: 1400px) and (min-width: 1200px) {
+      width: 400px;
+      text-align: center;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 992px) {
+      width: 300px;
+      text-align: center;
+    }
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+      min-width: 200px;
+      flex-grow: 1;
+    }
+    @media screen and (max-width: 768px) and (min-width: 576px) {
+      text-align: center;
+      flex-grow: 1;
+      width: 150px;
+    }
+    @media screen and (max-width: 576px) {
+      text-align: center;
+    }
+    hr {
+      margin-top: 25px;
+    }
+
+    .activities-item-content-paragraph {
+      font-style: normal;
+      font-size: 16px;
+      vertical-align: top;
+      letter-spacing: -2%;
+      font-weight: 200 !important;
+      @media screen and (max-width: 1400px) and (min-width: 1200px) {
+        font-size: 18px;
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    margin-top: 80px;
+    &-image {
+      width: 100%;
+      max-width: none;
+      margin-bottom: 10px;
+    }
+    &-information {
+      width: 80%;
+    }
+  }
+}

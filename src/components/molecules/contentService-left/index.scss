@@ -1,0 +1,23 @@
+.contentService {
+  width: 420px;
+  margin-right: 70px;
+  margin-bottom: 110px;
+}
+.icon {
+  align-items: center;
+  display: flex;
+  width: 350px;
+  @media screen and (max-width: 500px) {
+    width: 270px;
+  }
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    color: #fbd784;
+    margin-right: 15px;
+  }
+  img {
+    width: 20px;
+    height: 11px;
+  }
+}

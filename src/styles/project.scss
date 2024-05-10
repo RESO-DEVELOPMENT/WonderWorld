@@ -1,0 +1,17 @@
+.cover-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 100px;
+}
+@media only screen and (max-width: 998px) {
+  .cover-project {
+    margin: 100px 0;
+  }
+}
+@media only screen and (max-width: 612px) {
+  .cover-project {
+    margin: 0;
+  }
+}

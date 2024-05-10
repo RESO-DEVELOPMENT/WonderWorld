@@ -1,0 +1,27 @@
+.checkbox {
+  border-radius: 8px;
+  &.active-scroll-spy {
+    height: 18px;
+    width: 18px;
+    background: #c0bfb9;
+    border: 1px solid #eaecf0;
+  }
+  & {
+    height: 16px;
+    width: 16px;
+    background: linear-gradient(
+      180deg,
+      rgba(158, 121, 255, 0.15) -4.86%,
+      rgba(230, 221, 254, 0) 100%
+    );
+    border: 1px solid #848181;
+  }
+  &:last-child {
+    margin-top: 2px;
+  }
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

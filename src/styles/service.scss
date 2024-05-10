@@ -1,0 +1,20 @@
+.service-top {
+  background-image: linear-gradient(10deg, #0b1d26 0%, rgba(59, 74, 74, 0.2)),
+    url("/backgroundTemplate/lanbien.jpg");
+  min-height: 100vh;
+  background-size: cover;
+}
+.service-mid {
+  background-image: linear-gradient(10deg, #0b1d26, rgba(59, 74, 74, 0.2)),
+    url("/BGContent.png");
+  height: 30vh;
+  background-size: cover;
+  position: relative;
+  background-position: top;
+}
+.btn-Price {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

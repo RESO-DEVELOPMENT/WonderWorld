@@ -1,0 +1,25 @@
+.wrap-listcard {
+  display: flex;
+  justify-content: center;
+  border: none;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.btn-price {
+  text-align: center;
+}
+
+@media only screen and (max-width: 778px) {
+  .wrap-listcard {
+    .card-sevice {
+      width: 22rem !important;
+      .bigImg {
+        width: 330px;
+        img {
+          padding: 10px;
+          border-radius: 23px;
+        }
+      }
+    }
+  }
+}

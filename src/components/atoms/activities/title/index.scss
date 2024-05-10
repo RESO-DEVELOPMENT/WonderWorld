@@ -1,0 +1,25 @@
+.activities-item-title {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 22px;
+  vertical-align: top;
+  letter-spacing: -2%;
+  color: #fff;
+  @media screen and (max-width: 1400px) and (min-width: 1200px) {
+    font-size: 22px;
+  }
+}
+.title-detail-item {
+  text-transform: uppercase;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 44px;
+  vertical-align: top;
+  letter-spacing: -2%;
+}
+.title-color-yellow {
+  color: rgba(251, 215, 132, 1);
+}
+.text-uppercase {
+  text-transform: uppercase;
+}

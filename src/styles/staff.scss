@@ -1,0 +1,24 @@
+.home {
+  background-image: url("/bg2.jpg");
+  background-color: rgba(211, 211, 211, 0.5);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 150px 135px 150px;
+  object-fit: scale-down;
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+    margin-top: 23px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}

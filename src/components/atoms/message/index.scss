@@ -1,0 +1,29 @@
+.message {
+  button {
+    background: #18181b;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      color: lightblue;
+    }
+  }
+}
+
+.big {
+  button {
+    background: linear-gradient(11deg, #0a1215, #3d6a99);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin: 22px 0;
+    letter-spacing: 1px;
+  }
+}

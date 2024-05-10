@@ -1,0 +1,25 @@
+.title {
+  width: 330px;
+  font-size: 35px;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  color: #ffffff;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  position: relative;
+  &::before {
+    content: " ";
+    position: absolute;
+    width: 44px;
+    height: 0.6px;
+    background-color: #fbd784;
+    top: -15px;
+    opacity: 0.8;
+  }
+}
+.children {
+  position: absolute;
+}

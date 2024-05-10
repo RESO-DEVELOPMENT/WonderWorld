@@ -1,0 +1,12 @@
+.home {
+  background-image: url("/backgroundTemplate/bg1.jpeg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  object-fit: scale-down;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}

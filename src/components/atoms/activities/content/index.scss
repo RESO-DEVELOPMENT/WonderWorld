@@ -1,0 +1,18 @@
+.activities-item-content {
+  &-paragraph {
+    margin-top: 10px;
+    line-height: 19.58px;
+  }
+  .content-none-uppercase {
+    font-style: medium;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .none-uppercase {
+    font-style: medium;
+    text-transform: none;
+  }
+  .normal-uppercase {
+    text-transform: uppercase;
+  }
+}

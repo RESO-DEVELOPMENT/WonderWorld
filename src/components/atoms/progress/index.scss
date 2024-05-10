@@ -1,0 +1,46 @@
+.progress {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 500px;
+  @media only screen and (max-width: 1200px) {
+    max-width: 350px;
+  }
+  @media only screen and (max-width: 768px) {
+    max-width: 250px;
+  }
+  @media only screen and (max-width: 576px) {
+    max-width: 150px;
+  }
+  @media only screen and (max-width: 992px) {
+    flex-grow: 0;
+  }
+  &__border {
+    height: 3px;
+    width: 70%;
+    min-width: 250px;
+    background-color: #808998;
+    .progress_per {
+      background-color: #fff;
+      height: 3px;
+      width: 20%;
+    }
+    @media only screen and (max-width: 768px) {
+      min-width: 200px;
+    }
+    @media only screen and (max-width: 576px) {
+      min-width: 125px;
+    }
+  }
+  span {
+    font-family: "Archivo Narrow";
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 22px;
+    margin-left: 15px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 30px;
+    }
+  }
+}

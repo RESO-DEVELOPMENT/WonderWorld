@@ -1,0 +1,149 @@
+.ResService {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+@media only screen and (max-width: 998px) {
+  //general between LEFT AND RIGHT
+  .ResService-RightSide {
+    margin-bottom: 280px !important;
+  }
+  .bigCard {
+    width: 770px;
+    img {
+      height: 900px !important;
+    }
+  }
+  .contentService-wrap {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    .position-left {
+      font-size: 130px;
+    }
+    .title {
+      width: fit-content !important;
+      font-size: 50px !important;
+      line-height: 50px;
+    }
+    .eventProduct {
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.5px;
+    }
+    .icon {
+      font-size: 20px;
+    }
+  }
+  .ResService {
+    margin: 200px 0;
+    .title {
+      font-size: 27px;
+    }
+    img {
+      opacity: 0.5;
+    }
+    &-Right {
+      position: absolute;
+    }
+    .contentService {
+      width: 308px;
+      @media screen and (max-width: 500px) {
+        width: 250px;
+      }
+    }
+    .contentService-wrap {
+      padding: 20px;
+      background-color: rgb(56 15 15 / 30%);
+      border-radius: 20px;
+    }
+    &-Left {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      height: 450px;
+      &-wrap {
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .ResService-RightSide {
+    margin-top: 230px;
+    margin-bottom: 0;
+  }
+  //general between LEFT AND RIGHT
+  .bigCard {
+    width: 550px;
+  }
+  .contentService-wrap {
+    .title {
+      font-size: 46px !important;
+    }
+    .eventProduct {
+      font-size: 16px;
+    }
+    .icon {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  //general between LEFT AND RIGHT
+  .ResService-RightSide {
+    margin-top: 150px !important;
+    margin-bottom: 0;
+  }
+  .contact {
+    display: none !important;
+  }
+  .bigCard {
+    width: 460px;
+  }
+  .contentService-wrap {
+    width: 400px;
+    .title {
+      font-size: 40px !important;
+    }
+    .eventProduct {
+      font-size: 17x;
+    }
+    .icon {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  //general between LEFT AND RIGHT
+  .ResService-RightSide {
+  }
+  .bigCard {
+    width: 370px;
+  }
+  .contentService-wrap {
+    top: 90%;
+    width: 280px;
+    // height: 250px;
+    .title {
+      font-size: 27px !important;
+      line-height: 30px;
+    }
+    .eventProduct {
+      font-size: 13px;
+    }
+    .icon {
+      font-size: 12px;
+    }
+  }
+}

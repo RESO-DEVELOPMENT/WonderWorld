@@ -1,0 +1,66 @@
+.button-active {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  @media only screen and (max-width: 992px) {
+    justify-content: center;
+  }
+  &__title {
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+  }
+  .activepage:hover {
+    .button-active__msg {
+      display: flex;
+    }
+  }
+  &__msg {
+    &:hover {
+      display: flex;
+    }
+    min-width: 400px;
+
+    display: none;
+    border-radius: 50px;
+    background: #009091;
+    box-shadow: 0px 4px 20px 0px #37bed0;
+    padding: 33px 40px 33px 33px;
+    position: absolute;
+    top: 100%;
+    left: -30px;
+    @media only screen and (max-width: 992px) {
+      left: -150px;
+    }
+    @media only screen and (max-width: 576px) {
+      min-width: 200px;
+      padding: 20px 10px 20px 10px;
+      border-radius: 5px;
+    }
+    flex-direction: column;
+    gap: 18px;
+    p {
+      width: 100%;
+      color: rgba(255, 255, 255, 0.74);
+      text-align: start;
+      font-size: 20px;
+      @media only screen and (max-width: 576px) {
+        font-size: 14px;
+      }
+      font-family: Archivo;
+      font-weight: 900;
+      letter-spacing: -0.4px;
+      &:hover {
+        opacity: 0.5;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

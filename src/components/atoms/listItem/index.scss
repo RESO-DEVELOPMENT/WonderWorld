@@ -1,0 +1,51 @@
+.listItem {
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100% !important;
+  h5 {
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    &:hover {
+      color: rgb(123, 216, 248);
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-top: 25px;
+      font-size: 14px;
+      font-weight: 200;
+      opacity: 0.9;
+      a {
+        text-decoration: none;
+        color: white;
+        opacity: 0.9;
+        transition: 0.3s;
+        &:hover {
+          color: lightblue;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1025px) {
+  h5 {
+    text-align: center;
+  }
+  ul {
+    li {
+      text-align: center !important;
+    }
+  }
+}
+@media screen and (max-width: 670px) {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

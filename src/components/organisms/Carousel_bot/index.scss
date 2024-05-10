@@ -1,0 +1,31 @@
+.Carousel_bot {
+  &__top {
+    margin-left: calc(50% - 64px);
+    position: relative;
+    display: flex;
+    gap: 27px;
+    margin-bottom: 20px;
+    @media only screen and (max-width: 992px) {
+      margin-left: -30px;
+      // margin: 0 auto;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+  & .link {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 1200px) {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c;
+}
+.widthSlider {
+  max-width: 800px;
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .widthSlider {
+    max-width: 650px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .widthSlider {
+    width: 525px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .widthSlider {
+    width: 570px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .widthSlider {
+    width: 300px;
+  }
+}
+.listcard {
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  max-width: 720px;
+  overflow: hidden;
+  padding: 50px 0px 50px 50px;
+  margin-bottom: 30px;
+  @media only screen and (max-width: 1400px) {
+    max-width: 620px;
+  }
+  @media only screen and (max-width: 1200px) {
+    gap: 16px;
+    padding: 30px 0px 30px 30px;
+    max-width: 500px;
+  }
+  @media only screen and (max-width: 992px) {
+    width: 500px;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 400px;
+  }
+  @media only screen and (max-width: 576px) {
+    width: 300px;
+  }
+}
